@@ -433,6 +433,7 @@ transform-origin: top left;
   height: 214px;
   display: flex;
   justify-content: center;
+  margin-top: 447px;
 }
 
 .move-up {
