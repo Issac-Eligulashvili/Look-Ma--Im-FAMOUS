@@ -385,21 +385,12 @@ transform-origin: top left;
   z-index: 3; /* Set the desired z-index at the end of the animation */
 }
 
-.button {
- position: absolute;
- background-color: red;
- width: 100px;
- height: 100px;
- top: 0;
-}
-
 .rainbow-cont {
   overflow: hidden;
 }
 
 .positioning-cont {
   position: relative;
-  margin-top: 140px;
 } 
 
 /* CHALKBOARD ANIMATIONS */
@@ -433,7 +424,7 @@ transform-origin: top left;
   height: 214px;
   display: flex;
   justify-content: center;
-  margin-top: 447px;
+  margin-top: 256px;
 }
 
 .move-up {
