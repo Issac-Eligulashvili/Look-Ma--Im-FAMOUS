@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Eraser;
+  src: url(EraserDust.ttf);
+}
+
 body, html {
     background-color: #0b0c0a;
     width: 100%;
@@ -121,7 +126,6 @@ hr {
 }
 
 .heading-image {
-  margin-top: 40px;
   width: 100%;
   height: fit-content;
   position: relative;
@@ -397,13 +401,15 @@ transform-origin: top left;
 
 .chalkboard {
   width: 358px;
-  height: 204px;
+  height: fit-content;
   flex-shrink: 0;
   border: 3px solid #6B6B6B;
   box-shadow: 0px 6px 5.3px 3px rgba(0, 0, 0, 0.25);
   position: absolute;
   z-index: 1;
   cursor: pointer;
+  background-image: url(chalkboard.jpg);
+  background-size: cover;
 }
 
 .chalkboard-2 {
@@ -411,9 +417,10 @@ transform-origin: top left;
   height: 204px;
   flex-shrink: 0;
   border: 3px solid #6B6B6B;
-  background: url(chalkboard.jpg), lightgray 50% / cover no-repeat;
+  background: url(chalkboard.jpg);
+  background-size: cover;
   position: absolute;
-  top: 10px;
+  top: 35px;
   z-index: 0;
   transition: all.5s;
 }
@@ -425,6 +432,22 @@ transform-origin: top left;
   display: flex;
   justify-content: center;
   margin-top: 256px;
+}
+
+.chalk-cont-md {
+  position: relative;
+  width: 100%;
+  height: 214px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 256px;
+}
+
+
+.chalkboard-md-2 {
+  background-image: url(chalkboard.jpg);
+  border: 3px solid #6B6B6B;
+  height: fit-content;
 }
 
 .move-up {
@@ -439,4 +462,16 @@ transform-origin: top left;
 
 .panel-text {
   color: white;
+}
+
+.margin {
+  margin-top: 194px;
+}
+
+.chalk-text {
+  z-index: 2;
+  font-family: Eraser;
+  font-weight: 700;
+  color: white;
+  font-size: 20px;
 }

@@ -35,8 +35,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#early-years">Early Years/Struggles</a>
-                        <a class="nav-link" href="#">Accomplishments/Contributions</a>
+                        <a class="nav-link" aria-current="page" href="#early-years">Early Years/Struggles</a>
+                        <a class="nav-link" href="#accomplishments">Accomplishments/Contributions</a>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@
             <!-- Name + Subtext -->
             <div class="row justify-content-center m-0">
                 <div class="col-10">
-                    <h1 class="name m-0 animate__animated animate__fadeInDown">
+                    <h1 class="name m-0 animate__animated animate__fadeInDown fs-1">
                         ISAAC NEWTON
                     </h1>
                     <hr>
@@ -58,20 +58,32 @@
                 </div>
             </div>
             <!-- Image of Newton -->
-            <div class="row justify-content-center m-0">
-                <div class="col-10">
-                    <div class="heading-image">
+            <div class="row justify-content-center m-0 align-items-center mt-0 mt-md-5">
+                <div class="col-10 col-md-6">
+                    <div class="heading-image mt-5 mt-md-0">
                         <img src="newton.png" alt="" class="image">
                     </div>
                 </div>
-            </div>
-            <!-- Brief Text -->
-            <div class="row justify-content-center m-0">
-                <div class="col-10">
+                <!-- Brief Text -->
+                <div class="col-10 d-md-none">
                     <div class="background-info">
                         <p class="text text-center">
                             Sir Isaac Newton, a towering figure in the scientific revolution of the 17th century, made
                             groundbreaking contributions to physics, mathematics, and astronomy.
+                        </p>
+                    </div>
+                </div>
+                <!-- Breif Text on Md-Screen+ -->
+                <div class="col-6 d-none d-md-block">
+                    <div class="background-info">
+                        <p class="text text-center">
+                            Sir Isaac Newton, a key figure in the scientific revolution, revolutionized our
+                            understanding of the physical world with his work in "Philosophiæ Naturalis Principia
+                            Mathematica," establishing the laws of motion and universal gravitation. His meticulous
+                            experiments and mathematical formulations became a lasting framework in classical mechanics.
+                            Newton's contributions extended to optics with "Opticks," where he explored the nature of
+                            light, introducing the concept of the spectrum through prism experiments, further enriching
+                            scientific discourse.
                         </p>
                     </div>
                 </div>
@@ -95,15 +107,23 @@
             <!-- Childhood Years -->
             <div class="childhood">
                 <!-- Picture of Newtons Signature -->
-                <div class="row justify-content-center m-0">
-                    <div class="col-10 p-0">
+                <div class="row justify-content-center align-items-center m-0">
+                    <div class="col-10 col-md-6">
                         <img src="newton signature.png" alt="A Picture of newton's childhood signature"
-                            class="signature">
+                            class="signature d-md-none">
+                        <img src="newtons-signature-md.jpg" alt="A Picture of newton's childhood signature"
+                            class="signature d-md-block d-none">
+                        <div class="background-info d-none d-md-block mt-2">
+                            <p class="text text-center">
+                                Isaac Newton had a tough start to life, born prematurely in 1642 after his father's
+                                death. Raised by his mom on a farm, he showed a love for mechanics and math from an
+                                early age. Even though money was tight, Newton's curiosity and love for learning in his
+                                early years set the stage for him to become one of the greatest scientists in history.
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <!-- Childhood Facts -->
-                <div class="row justify-content-center m-0">
-                    <div class="col-10">
+                    <!-- Text abt childhood on phone -->
+                    <div class="col-10 d-md-none">
                         <div class="background-info">
                             <p class="text text-center">
                                 Sir Isaac Newton, was born in 1643 in Woolsthorpe, England. 3 months after his birth,
@@ -113,16 +133,32 @@
                             </p>
                         </div>
                     </div>
+                    <!-- Text On Teenage On Md+ -->
+                    <div class="col-6 d-none d-md-block">
+                        <div class="background-info d-none d-md-block">
+                            <p class="text text-center">
+                            <div class="background-info">
+                                <p class="text text-center">
+                                    Newton would show emmense academic prowess during his time at Grantham which would
+                                    lead him to Trinty College Cambridge with the hopes of studying law. Due to his poor
+                                    upbringing, Newton would be forced into servitude to pay for his tuition. During his
+                                    early years at Cambridge, the bubonic pleague would strike Europe, causing Newton to
+                                    go into isolation in his childhood home for 2 years. During this time, he would
+                                    begin experimenting his ideas and would discover the foundations for gravity,
+                                    calculus, and physics.
+                                </p>
+                            </div>
+                            </p>
+                        </div>
+                    </div>
                 </div>
                 <!-- Teenage/Early Adulthood -->
-                <div class="teenage">
+                <div class="teenage d-md-none">
                     <div class="row justify-content-center m-0">
                         <div class="col-10">
                             <div class="background-info">
                                 <p class="text text-center">
-                                    Newton didn't accel in school however, he would still attend Trinity College
-                                    Cambridge with the hopes of studying law. The bubonic plague would occur at this
-                                    time, forcing Newton into isolation within his home for 2 years.
+
                                 </p>
                             </div>
                         </div>
@@ -133,7 +169,7 @@
 
         <!-- Accomplishments Start -->
         <!-- Heading + Line -->
-        <div class="accomplishments-heading">
+        <div class="accomplishments-heading" id="accomplishments">
             <div class="row justify-content-center m-0">
                 <div class="col-10 p-0">
                     <h1 class="name m-0 ">
@@ -164,7 +200,7 @@
             <div class="col-1"></div>
         </div>
         <div class="positioning-cont">
-            
+
             <!-- Animation in BG -->
             <div class="anim-positioning">
                 <div class="optical-anim-cont">
@@ -184,11 +220,44 @@
             </div>
         </div>
         <!-- Chalkboard -->
-        <div class="chalk-cont">
-            <img class="chalkboard" src="chalkboard.jpg" onclick="Move()">
-            <img class="chalkboard-2" src="chalkboard.jpg">
+        <div class="chalk-cont d-md-none">
+            <div class="chalkboard p-2" onclick="Move()">
+                <div class="chalk-text">
+                    Isaac Newton revolutionized science in his twenties by developing calculus, a powerful mathematical
+                    tool, and in 1687, he published the Principia, which presented his laws of motion and the law of
+                    universal gravitation.
+                </div>
+            </div>
+            <div class="chalkboard-2 text-center d-flex align-items-center">
+                <div class="chalk-text">
+                   The Principia transformed our understanding of the universe and established Newton's enduring legacy in physics. 
+                </div>
+            </div>
         </div>
-
+        <!-- Chalkboards at Md+ -->
+        <div class="row justify-content-around margin p-0 w-100 d-none d-md-flex">
+            <div class="col-md-5 col-lg-4 position-relative p-2 chalkboard-md-2 ">
+                <div class="chalk-text">
+                    Isaac Newton's groundbreaking work on gravitation and calculus stands as a cornerstone of his
+                    remarkable contributions to science. In the late 1660s, while still in his twenties, Newton
+                    developed the principles of calculus, a revolutionary mathematical framework that provided a
+                    systematic way to understand and describe changing quantities. His invention of calculus was an
+                    essential tool for solving complex mathematical problems and laid the groundwork for advancements in
+                    physics and engineering.
+                </div>
+            </div>
+            <div class="col-md-5 col-lg-4 position-relative p-2 chalkboard-md-2 ">
+                <div class="chalk-text">
+                    In 1687, Newton published his seminal work, "Philosophae Naturalis Principia Mathematica"
+                    (Mathematical Principles of Natural Philosophy), commonly known as the Principia. This monumental
+                    work presented Newton's laws of motion and the law of universal gravitation, unifying celestial and
+                    terrestrial phenomena under a single set of principles. The Principia transformed our understanding
+                    of the universe, explaining how objects move on Earth and in the heavens. Newton's law of universal
+                    gravitation became a cornerstone of classical physics and remains a fundamental concept in modern
+                    science.
+                </div>
+            </div>
+        </div>
 
 
         <!-- ending div for container -->
